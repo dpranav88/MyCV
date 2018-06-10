@@ -1,0 +1,331 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Pranav} % Your first name
+\familyname{Deshpande} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Krishnai-539a, Amboli Road, Ajara, Maharashtra, India 416505}{}
+\mobile{(+91)7276405699 }
+\phone{(+91) 2323 244356}
+%\fax{(000) 111 1113}
+\email{dpranav88@yahoo.co.in}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+\quote{"Strength is Life, Weakness is Death!" - Swami Vivekananda}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	CAREER OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+\section{\textbf{Career Objective}}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\textbf{Education}}
+
+\cventry{2013--2015}{Masters of Technology}{Indian Institute of Technology}{Bhubaneswar}{\textit{CGPA -- 8.3}}{Electronics and Communication}  % Arguments not required can be left empty
+\cventry{2006--2010}{Bachelor of Engineering}{University of Mumbai}{Mumbai}{\textit{Percentage -- 66.39}}{Electronics Engineering}
+
+\section{\textbf{Masters Thesis}}
+
+\cvitem{Title}{\emph{Glottal Instant Detection from Speech \&  EGG Signals}}
+\cvitem{Supervisor}{Dr. M. Sabarimalai Manikandan (Asst. Prof.), SES, IIT Bhubaneswar}
+\cvitem{Description}{In this thesis, we attempt to develop an unified framework using variational mode decomposition (VMD) and autocorrelation feature based post-processing techniques for automatically detecting glottal closure instants (GCIs) and glottal opening instants (GOIs) from speech and EGG signals including both voiced speech and non-speech portions. The major objective of this thesis is to develop an unified VMD based filtering framework for extracting the glottal waveform feature signal meanwhile suppressing the background noises. In this work, we investigated a set of autocorrelation features for designing a post-processing technique to improve overall accuracy by reducing the number of false positives during non-speech portions without significantly reducing identification rate during voiced segment of EGG and speech signals.}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\textbf{Experience}}
+
+\subsection{\textbf{Industrial Research}}
+\cventry{2017--Present}{Associate Research Engineer}{\textsc{Brigosha Technologies}}{Bengaluru}{}{Since last \textbf{10 months}, serving as an Algorithm Developer at \textbf{Robert Bosch Engineering and Business Solutions Pvt. Ltd. (RBEI), Coimbatore} which is one of the client location. Learned and got good command over motion sensors basics, motion signal filtering, offset removal or calibration, sensor fusion and scrum based practices. Delivered good algorithm solutions as par the requirements. Also assisted some projects apart from regular assignment which include machine learning and image processing.
+\newline{}\newline{}
+\begin{large}
+\textbf{Projects Handled:}
+\end{large}
+\begin{enumerate}
+\item \textbf{Motion and Orientation Sensing for Robot Applications}
+\begin{itemize}
+\item \textsc{Team size:} 3 
+\item \textsc{Period:} ongoing.
+\item \textsc{Platform:} MATLAB, Python, C. 
+\item \textsc{Customer:} iRobot.
+\end{itemize}
+\item \textbf{Motion and Orientation Sensing for Drone Applications}
+\begin{itemize}
+\item \textsc{Team size:} 3 
+\item \textsc{Period:} 5 months
+\item \textsc{Platform:} MATLAB, Python, C. 
+\item \textsc{Customer:} Open Source Release-Product Promotion.
+\end{itemize}
+\item \textbf{9DoF based Heading angle correction under slowly varying magnetic field: Feature addition to Bosch Sensor Fusion (BSX3.0) library}
+\begin{itemize}
+\item \textsc{Team size:} 2
+\item \textsc{Period:} 2 months
+\item \textsc{Platform:} MATLAB, Python, C. 
+\item \textsc{Customer:} Huawei and others.
+\item The feature added was innovative and looking forward to file a patent. 
+\end{itemize}
+\item \textbf{Harsh acceleration and sudden braking detection with only Accelerometer sensor for driving quality assessment}
+\begin{itemize}
+\item \textsc{Team size:} 1
+\item \textsc{Period:} 2 months
+\item \textsc{Platform:} MATLAB, Python, C. 
+\item \textsc{Customer:} Reliance Jio. 
+\end{itemize}
+\item \textbf{Object to lens distance estimation using binocular computer vision for AR/VR Applications}
+\begin{itemize}
+\item \textsc{Role:} Assistance
+\item \textsc{Period:} 1 month
+\item \textsc{Platform:} MATLAB, Python with openCV. 
+\end{itemize}
+\item \textbf{Motion activity recognition}
+\begin{itemize}
+\item \textsc{Role:} Assistance
+\item \textsc{Period:} 4 months
+\item \textsc{Platform:} MATLAB, Python with scikit-learn. 
+\end{itemize}
+\end{enumerate}}
+
+%------------------------------------------------
+
+\cventry{2016--2017}{Research Scientist}{\textsc{Atreya Innovations Pvt. Ltd.}}{Pune}{}{Had an experience of \textbf{10 months}. Primarily worked on the development of multi-modal signal analysis framework, i.e. Naadi (the Radial Artery Pulse), Voice and Image of the subject, for Naadi  and other Parikshas (Pulse based Diagnosis in Ayurveda). For this, we interacted with a team of Ayurvedic Doctors. The main tasks include data collection (, i.e. Pulse signals, Face and tongue images, voice) at medical camps and analyzing them by feature extraction and machine learning algorithms.
+\newline{}\newline{}
+\begin{large}
+\textbf{Projects Handled:}
+\end{large}
+\begin{enumerate}
+\item \textbf{Voice based Prakruti Analysis: Machine Learning Approach}
+\begin{itemize}
+\item \textsc{Team size:} 1
+\item \textsc{Period:} 10 months
+\item \textsc{Platform:} MATLAB, Python with scikit-learn. 
+\item \textsc{Key Result Areas:}
+\begin{itemize}
+\item Designed sentences for voice samples of subjects (, i.e. Recording content). 
+\item Given technical specifications for audio clip recording, such as sampling rate, number of channels etc.
+\item Implemented signal conditioning and feature extractions for voice samples.
+\item Classified data using different supervised and unsupervised machine learning algorithms.
+\item Set up relation between of Ayurvedic definitions and voice specific parameters.
+\end{itemize}
+\end{itemize}
+\item \textbf{Pulse Rate Variability (PRV) and its correlation with Prakruti: Machine Learning Approach}
+\begin{itemize}
+\item \textsc{Team size:} 1
+\item \textsc{Period:} 10 months
+\item \textsc{Platform:} MATLAB, Python with scikit-learn. 
+\item \textsc{Key Result Areas:}
+\begin{itemize}
+\item Read literature on Ayurveda and understood basics theory and terminology of Ayurveda.
+\item Implemented preprocessing and signal conditioning modules for pulse signals. 
+\item Implemented time and frequency domain features extraction modules.
+\item Guided two intern M.Sc. projects related with pulse parameter and rate variability with machine learning approach.
+\end{itemize}
+\end{itemize}
+\item \textbf{Tongue and Face features and their correlation with Prakruti: Machine Learning Approach}
+\begin{itemize}
+\item \textsc{Role:} Assistance
+\item \textsc{Period:} 10 months
+\item \textsc{Platform:} MATLAB, Python with openCV. 
+\end{itemize}
+\end{enumerate}}
+
+
+%------------------------------------------------
+
+\subsection{\textbf{Academic Research}}
+
+\cventry{2013--2016}{Research Scholar}{\textsc{Indian Institute of Technology}}{Bhubaneswar}{}{Had around \textbf{03 years} of research experience while working as a M. Tech. scholar and Ph.D. scholar at IIT Bhubaneswar. Published one conference and two journals. Explored areas like stochastic signal modeling, speech and biomedical signal processing and analysis, Image processing.}
+
+\subsection{\textbf{Teaching}}
+\cventry{2010--2016}{Teaching Assistant and Lecturer}{}{}{}{Had around \textbf{05 years} teaching experience which helped me a lot to enhance my basic understanding and concepts of subjects like signal processing, microprocessors and analog circuit design.}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Awards}
+%
+%\cvitem{2011}{School of Business Postgraduate Scholarship}
+%\cvitem{2010}{Top Achiever Award -- Commerce}
+
+%----------------------------------------------------------------------------------------
+%	Publications SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\textbf{Extra Certifications}}
+
+\cvitem{2018}{\textbf{Machine Learning} by Andrew Ng, Stanford University on Coursera, (https://www.coursera.org/account/accomplishments/verify/JBRXBMHC86RY)}
+
+\cvitem{2018}{\textbf{Learn Python: The Complete Python Automation Course!} on Udemy, (https://www.udemy.com/certificate/UC-25GBXWUQ/)}
+
+\cvitem{2018}{\textbf{Fundamentals of Parallelism on Intel Architecture} by Intel on Coursera, (Complete by July 2018)}
+
+%----------------------------------------------------------------------------------------
+%	Publications SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\textbf{Publications}}
+\subsection{\textbf{International Journals}}
+
+\cvitem{2017}{\textbf{Pranav S. Deshpande} and M. S. Manikandan, ``Effective Glottal Instant Detection and Electroglottographic Parameter Extraction for Automated Voice Pathology Assessment", \textit{IEEE J. Biomed. Health Inform.,} vol.PP, no.99, pp.1-1, Jan 2017.}
+\cvitem{2018}{\textbf{Pranav S. Deshpande} and M. S. Manikandan, ``Glottal Opening Instants Detection from Speech Signals Using Variational Mode Decomposition", \textit{IEEE Trans. Instrum. Meas.,} (To be submitted), 2017.}
+\cvitem{2015}{M. S. Manikandan, B. Ramkumar, \textbf{Pranav S. Deshpande}, T. Choudhary, ``Robust Detection of Premature Ventricular Contractions Using Sparse Signal Decomposition and Temporal Features", \textit{IET Healthcare Technology Letters,} vol.2, no.6, pp.141-148, Nov 2015.}
+\subsection{\textbf{International Conference}}
+\cvitem{2015}{\textbf{Pranav S. Deshpande} and M. S. Manikandan, ``Improving Accuracy of Glottal Closure Instant Detection Methods in Nonstationary Noise", in \emph{Proc. IEEE Int. Conf. on Signal Processing and Integrated Networks (SPIN-2015)}, Feb. 2015}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\textbf{Skills}}
+\subsection{\textbf{Domain}}
+\cvitem{Signals}{Biomedical and Audio Signal Processing, Image Processing, Motion Sensor Signal Processing and Fusion}
+\cvitem{Data Science}{Feature Extraction, \textbf{Machine Learning}, Soft and Evolutionary Computing}
+\cvitem{Filtering}{Digital filter design, Filter Banks, Adaptive Filtering}
+\cvitem{Basics}{Random Signal Modeling, Estimation Theory, Convex Optimization,Linear Algebra}
+\subsection{\textbf{Tools}}
+\cvitem{\textbf{MATLAB}}{Code conversion (Coder), Simulation and Scripting with Toolboxes: Signal Processing, DSP System, Statistics and Machine Learning, etc.}
+\cvitem{\textsc{Python}}{NumPy, SciPy, pandas, matplotlib, \textbf{OpenCV}, \textbf{scikit-learn}, TensorFlow (Learning)}
+\cvitem{C/C++}{Basic coding with openCV and DSP libraries, openMP \& CUDA (Learning)}
+\cvitem{Hardware}{Basic analog circuits design, STM32F407 Discovery Board, Arduino UNO, Raspberry Pi 3 etc.}
+\cvitem{Others}{Multisim, Basic coding with VHDL, PSPICE.}
+\subsection{\textbf{Office}}
+\cvitem{O.S.}{Basic user level proficiency with \textbf{Ubuntu} and Microsoft Windows.}
+\cvitem{Office}{Git, \LaTeX, OpenOffice, scrum practices.}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Communication Skills}
+%
+%\cvitem{2010}{Oral Presentation at the California Business Conference}
+%\cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+\newpage
+%----------------------------------------------------------------------------------------
+%	Extra SECTION
+%----------------------------------------------------------------------------------------
+\section{\textbf{Extras and Achievements}}
+
+\subsection{\textbf{Academic}}
+\cvitem{2013}{Secured \textbf{All India Rank 800} with score 649 in GATE 2013.}
+
+\subsection{\textbf{Leadership and Management}}
+\cvitem{2014-2015}{Worked as a \textbf{Mess Wing Counselor} at IIT Bubaneswar Boys' Hostel; Madanpur.}
+\cvitem{2014-2015}{Worked as M.Tech. Electrical \textbf{Student's Representative at Career Development Cell} of IIT Bhubaneswar.}
+\cvitem{2008-2010}{Worked as \textbf{Field Officer, Assistant Coordinator and Coordinator} for the Publicity Comity of national level competition \textit{Brainwaves}.}
+\cvitem{2008}{Worked as \textbf{Field Officer} for Orchestra Comity of cultural gathering \textit{Utopia}.}
+
+\subsection{\textbf{Music and Literature}}
+\cvitem{2017}{Authored an article on Marathi News Portal Smart Maharashtra (http://smartmaharashtra.online/aai/).}
+\cvitem{2013}{Worked as \textbf{Assistant Music Director} for the Music Album \textit{Na Jaanu Kaisa Ishq Hai} in the year 2013 (https://www.youtube.com/watch?v=oBRXNt58pvE).}
+\cvitem{2005}{Got \textbf{First Class} in Pune Bharat Gayan Samaj's first year classical Singing exam in the year 2005.}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\textbf{Interests}}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Daily 52 sets of Surya Namaskar}{Playing Guitar and Harmonium}
+\cvlistdoubleitem{Singing and composing songs, Poetry Writing}{Cooking, Swimming}
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\textbf{Languages}}
+
+\cvitemwithcomment{Marathi}{Mothertongue}{Conversationally fluent}
+\cvitemwithcomment{Hindi}{Fluent}{Conversationally fluent}
+\cvitemwithcomment{English}{Fluent}{Medium of education after $10^{th}$ std. class}
+
+%----------------------------------------------------------------------------------------
+%	References SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\textbf{References}}
+\subsection{\textbf{1. Dr. M. Sabarimalai Manikandan}}
+\cvitem{Designation}{Assistant Professor,  School of Electrical Sciences, IIT Bhubaneswar}
+\cvitem{Email}{msm@iitbbs.ac.in}
+\cvitem{Address}{School of Electrical Sciences, IIT Bhubaneswar, Jatni-Kurdha Road, IIT Bhubaneswar, Odisha, India -752050}
+\subsection{\textbf{2. Dr. Barathram. Ramkumar}}
+\cvitem{Designation}{Assistant Professor,  School of Electrical Sciences, IIT Bhubaneswar}
+\cvitem{Email}{barathram@iitbbs.ac.in}
+\cvitem{Address}{School of Electrical Sciences, IIT Bhubaneswar, Jatni-Kurdha Road, IIT Bhubaneswar, Odisha, India -752050}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+%
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+%
+%\makelettertitle % Print letter title
+%
+%\lipsum[1-3] % Dummy text
+%
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
