@@ -59,12 +59,12 @@
 
 \makecvtitle % Print the CV title
 
-%----------------------------------------------------------------------------------------
-%	CAREER OBJECTIVE
-%----------------------------------------------------------------------------------------
-
-\section{\textbf{Career Objective}}
-
+%%----------------------------------------------------------------------------------------
+%%	CAREER OBJECTIVE
+%%----------------------------------------------------------------------------------------
+%
+%\section{\textbf{Career Objective}}
+%A
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
@@ -79,7 +79,6 @@
 \cvitem{Title}{\emph{Glottal Instant Detection from Speech \&  EGG Signals}}
 \cvitem{Supervisor}{Dr. M. Sabarimalai Manikandan (Asst. Prof.), SES, IIT Bhubaneswar}
 \cvitem{Description}{In this thesis, we attempt to develop an unified framework using variational mode decomposition (VMD) and autocorrelation feature based post-processing techniques for automatically detecting glottal closure instants (GCIs) and glottal opening instants (GOIs) from speech and EGG signals including both voiced speech and non-speech portions. The major objective of this thesis is to develop an unified VMD based filtering framework for extracting the glottal waveform feature signal meanwhile suppressing the background noises. In this work, we investigated a set of autocorrelation features for designing a post-processing technique to improve overall accuracy by reducing the number of false positives during non-speech portions without significantly reducing identification rate during voiced segment of EGG and speech signals.}
-
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
@@ -239,7 +238,7 @@
 \cvitem{\textsc{Python}}{NumPy, SciPy, pandas, matplotlib, \textbf{OpenCV}, \textbf{scikit-learn}, TensorFlow (Learning)}
 \cvitem{C/C++}{Basic coding with openCV and DSP libraries, openMP \& CUDA (Learning)}
 \cvitem{Hardware}{Basic analog circuits design, STM32F407 Discovery Board, Arduino UNO, Raspberry Pi 3 etc.}
-\cvitem{Others}{Multisim, Basic coding with VHDL, PSPICE.}
+\cvitem{Others}{basic SQLite, Multisim, Basic coding with VHDL, PSPICE.}
 \subsection{\textbf{Office}}
 \cvitem{O.S.}{Basic user level proficiency with \textbf{Ubuntu} and Microsoft Windows.}
 \cvitem{Office}{Git, \LaTeX, OpenOffice, scrum practices.}
@@ -252,7 +251,6 @@
 %
 %\cvitem{2010}{Oral Presentation at the California Business Conference}
 %\cvitem{2009}{Poster at the Annual Business Conference in Oregon}
-\newpage
 %----------------------------------------------------------------------------------------
 %	Extra SECTION
 %----------------------------------------------------------------------------------------
@@ -275,6 +273,7 @@
 %----------------------------------------------------------------------------------------
 %	INTERESTS SECTION
 %----------------------------------------------------------------------------------------
+\newpage
 
 \section{\textbf{Interests}}
 
