@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.12)  20 JUN 2018 12:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.12)  17 JUL 2018 09:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -595,7 +595,7 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
 []\T1/lmss/m/n/10.95 (+20) Authored an ar-ti-cle on Marathi News Por-tal Smart 
 Ma-ha-rash-tra
  []
@@ -608,26 +608,26 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
 
 [5]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 290.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 292.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 292.
+(Font)              <10> on input line 294.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 292.
+(Font)              <7> on input line 294.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 292.
+(Font)              <5> on input line 294.
 
-Underfull \hbox (badness 1783) in paragraph at lines 302--302
+Underfull \hbox (badness 1783) in paragraph at lines 304--304
 []\T1/lmss/m/n/10.95 (+20) School of Elec-tri-cal Sci-ences, IIT Bhubaneswar, J
 atni-Kurdha Road, IIT
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 306--306
+Underfull \hbox (badness 1783) in paragraph at lines 308--308
 []\T1/lmss/m/n/10.95 (+20) School of Elec-tri-cal Sci-ences, IIT Bhubaneswar, J
 atni-Kurdha Road, IIT
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 330.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 332.
 
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
  Make it at least 36.71997pt.
@@ -635,10 +635,10 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 330.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 332.
  (./PranavDeshpandeCv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 330.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 330.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 332.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 332.
 Package rerunfilecheck Info: File `PranavDeshpandeCv.out' has not changed.
 (rerunfilecheck)             Checksum: 29C81733B93EF7B2CBC6E0344FB04011;2912.
  ) 
@@ -661,7 +661,7 @@ b></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/t
 ype1/public/lm/lmsso12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb>
 </usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on PranavDeshpandeCv.pdf (6 pages, 313105 bytes).
+Output written on PranavDeshpandeCv.pdf (6 pages, 313341 bytes).
 PDF statistics:
  223 PDF objects out of 1000 (max. 8388607)
  187 compressed objects within 2 object streams
