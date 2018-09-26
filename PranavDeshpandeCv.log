@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.12)  31 JUL 2018 22:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.12)  26 SEP 2018 23:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -528,33 +528,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--60
 
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 137.
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 90.
 
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
-
- []
-
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
-
-LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 137.
-
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/10'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 138.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 94.
 
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/sl' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 138.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 94.
 
 
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
@@ -565,10 +553,17 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./pictures/picture.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 180--180
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
+
+ []
+
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 145.
 
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
  Make it at least 36.71997pt.
@@ -576,7 +571,7 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2]
-Underfull \hbox (badness 5970) in paragraph at lines 207--207
+Underfull \hbox (badness 5970) in paragraph at lines 172--172
 []\T1/lmss/bx/n/10.95 Machine Learn-ing \T1/lmss/m/n/10.95 (+20) by An-drew Ng,
  Stan-ford Uni-ver-sity on Cours-era,
  []
@@ -595,7 +590,7 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 271--271
+Underfull \hbox (badness 10000) in paragraph at lines 225--225
 []\T1/lmss/m/n/10.95 (+20) Authored an ar-ti-cle on Marathi News Por-tal Smart 
 Ma-ha-rash-tra
  []
@@ -607,27 +602,25 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [5]
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 292.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 294.
+(Font)              <10> on input line 248.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 294.
+(Font)              <7> on input line 248.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 294.
+(Font)              <5> on input line 248.
 
-Underfull \hbox (badness 1783) in paragraph at lines 304--304
+Underfull \hbox (badness 1783) in paragraph at lines 258--258
 []\T1/lmss/m/n/10.95 (+20) School of Elec-tri-cal Sci-ences, IIT Bhubaneswar, J
 atni-Kurdha Road, IIT
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 308--308
+Underfull \hbox (badness 1783) in paragraph at lines 262--262
 []\T1/lmss/m/n/10.95 (+20) School of Elec-tri-cal Sci-ences, IIT Bhubaneswar, J
 atni-Kurdha Road, IIT
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 332.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 286.
 
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
  Make it at least 36.71997pt.
@@ -635,21 +628,21 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 332.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 286.
  (./PranavDeshpandeCv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 332.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 332.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 286.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 286.
 Package rerunfilecheck Info: File `PranavDeshpandeCv.out' has not changed.
-(rerunfilecheck)             Checksum: 29C81733B93EF7B2CBC6E0344FB04011;2912.
+(rerunfilecheck)             Checksum: F35F9628D384A20169332479899B51A4;2954.
  ) 
 Here is how much of TeX's memory you used:
- 12304 strings out of 494880
- 179203 string characters out of 6179601
- 399303 words of memory out of 5000000
- 15361 multiletter control sequences out of 15000+600000
- 88025 words of font info for 93 fonts, out of 8000000 for 9000
+ 12296 strings out of 494880
+ 179122 string characters out of 6179601
+ 394303 words of memory out of 5000000
+ 15358 multiletter control sequences out of 15000+600000
+ 85331 words of font info for 93 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 43i,13n,67p,901b,555s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,13n,67p,901b,482s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm
@@ -661,10 +654,10 @@ b></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/t
 ype1/public/lm/lmsso12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb>
 </usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on PranavDeshpandeCv.pdf (6 pages, 313348 bytes).
+Output written on PranavDeshpandeCv.pdf (6 pages, 311080 bytes).
 PDF statistics:
- 223 PDF objects out of 1000 (max. 8388607)
- 187 compressed objects within 2 object streams
- 39 named destinations out of 1000 (max. 500000)
- 31422 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 213 PDF objects out of 1000 (max. 8388607)
+ 177 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 500000)
+ 29374 words of extra memory for PDF output out of 29859 (max. 10000000)
 
