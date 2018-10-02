@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.12)  2 OCT 2018 23:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.12)  3 OCT 2018 00:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -362,29 +362,29 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip67
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 58.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 58.
+Package hyperref Info: Option `breaklinks' set `true' on input line 59.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 59.
 
 (./PranavDeshpandeCv.aux)
 \openout1 = `PranavDeshpandeCv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Try loading font information for T1+qpl on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Try loading font information for T1+qpl on input line 59.
  (/usr/share/texmf/tex/latex/tex-gyre/t1qpl.fd
 File: t1qpl.fd 2009/09/25 v1.2 font definition file for T1/qpl
 )
@@ -418,7 +418,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 58.
+LaTeX Info: Redefining \microtypecontext on input line 59.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -432,7 +432,7 @@ Package microtype Info: No adjustment of character kerning.
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 58.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 59.
 
 (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -477,7 +477,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box30
-Package hyperref Info: Link coloring OFF on input line 58.
+Package hyperref Info: Link coloring OFF on input line 59.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -486,9 +486,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count107
 )
-LaTeX Info: Redefining \ref on input line 58.
-LaTeX Info: Redefining \pageref on input line 58.
-LaTeX Info: Redefining \nameref on input line 58.
+LaTeX Info: Redefining \ref on input line 59.
+LaTeX Info: Redefining \pageref on input line 59.
+LaTeX Info: Redefining \nameref on input line 59.
 
 (./PranavDeshpandeCv.out) (./PranavDeshpandeCv.out)
 \@outlinefile=\write3
@@ -496,24 +496,24 @@ LaTeX Info: Redefining \nameref on input line 58.
 
 \pagenumberwidth=\skip68
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 58.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 59.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <24.88> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 60.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 61.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <17.28> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 60.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
-LaTeX Font Info:    Try loading font information for OMS+qpl on input line 60.
-LaTeX Font Info:    No file OMSqpl.fd. on input line 60.
+LaTeX Font Info:    Try loading font information for OMS+qpl on input line 61.
+LaTeX Font Info:    No file OMSqpl.fd. on input line 61.
 
 
 LaTeX Font Warning: Font shape `OMS/qpl/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 60.
+(Font)              for symbol `textbullet' on input line 61.
 
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 60.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 61.
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -521,62 +521,62 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 60.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 61.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 60.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 61.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 60.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 61.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 60.
+(Font)              <10.95> on input line 61.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 60.
+(Font)              <8> on input line 61.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 60.
+(Font)              <6> on input line 61.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <14.4> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 72.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 73.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10.95> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 74.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 75.
 
 
 LaTeX Font Warning: Font shape `T1/lmss/sb/n' undefined
-(Font)              using `T1/lmss/m/n' instead on input line 83.
+(Font)              using `T1/lmss/m/n' instead on input line 84.
 
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <12> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 83.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 84.
 
-Underfull \hbox (badness 10000) detected at line 83
+Underfull \hbox (badness 10000) detected at line 84
 \T1/lmss/m/n/8 .
  []
 
 
-Underfull \hbox (badness 10000) detected at line 88
+Underfull \hbox (badness 10000) detected at line 89
 \T1/lmss/m/n/8 .
  []
 
 
 LaTeX Font Warning: Font shape `T1/lmss/b/sc' undefined
-(Font)              using `T1/lmss/b/n' instead on input line 90.
+(Font)              using `T1/lmss/b/n' instead on input line 91.
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) detected at line 103
+Underfull \hbox (badness 10000) detected at line 104
 \T1/lmss/m/n/8 .
  []
 
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 117.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 118.
 
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -585,88 +585,88 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 117.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 118.
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 117.
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 118.
 
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/lmss/b/sc' in size <10.95> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 135.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 136.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 135.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 136.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 135.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 136.
 [2]
-Underfull \hbox (badness 10000) detected at line 140
+Underfull \hbox (badness 10000) detected at line 141
 \T1/lmss/m/n/8 .
  []
 
 
-Underfull \hbox (badness 10000) detected at line 144
+Underfull \hbox (badness 10000) detected at line 145
 \T1/lmss/m/n/8 .
  []
 
 
-Underfull \hbox (badness 10000) detected at line 177
+Underfull \hbox (badness 10000) detected at line 178
 \T1/lmss/m/n/8 .
  []
 
 
-Underfull \hbox (badness 10000) detected at line 182
+Underfull \hbox (badness 10000) detected at line 183
 \T1/lmss/m/n/8 .
  []
 
 [3]
-Underfull \hbox (badness 10000) detected at line 205
+Underfull \hbox (badness 10000) detected at line 206
 \T1/lmss/m/n/8 .
  []
 
 
-Underfull \hbox (badness 10000) detected at line 208
+Underfull \hbox (badness 10000) detected at line 209
 \T1/lmss/m/n/8 .
  []
 
 
-Underfull \hbox (badness 10000) detected at line 214
+Underfull \hbox (badness 10000) detected at line 215
 \T1/lmss/m/n/8 .
  []
 
 
-Overfull \hbox (38.35126pt too wide) in paragraph at lines 215--215
+Overfull \hbox (38.35126pt too wide) in paragraph at lines 216--216
 [][]\T1/lmss/bx/n/10.95 2017[]\T1/lmss/m/n/10.95 (-20) : Au-thored an ar-ti-cle
  on Marathi News Por-tal Smart Ma-ha-rash-tra (http://smartmaharashtra.online/a
 ai/). 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 237.
+(Font)              <10> on input line 238.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 237.
+(Font)              <7> on input line 238.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 237.
+(Font)              <5> on input line 238.
 
-Underfull \hbox (badness 10000) detected at line 244
+Underfull \hbox (badness 10000) detected at line 245
 \T1/lmss/m/n/8 .
  []
 
 
-Underfull \hbox (badness 10000) detected at line 248
+Underfull \hbox (badness 10000) detected at line 249
 \T1/lmss/m/n/8 .
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 279.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 280.
 [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 279.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 280.
  (./PranavDeshpandeCv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 279.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 279.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 280.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 280.
 Package rerunfilecheck Info: File `PranavDeshpandeCv.out' has not changed.
 (rerunfilecheck)             Checksum: D303CFC5B02C0D8251CA81A920AC7F38;2831.
 
@@ -677,27 +677,26 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  12417 strings out of 494880
  181839 string characters out of 6179601
- 385463 words of memory out of 5000000
+ 385466 words of memory out of 5000000
  15479 multiletter control sequences out of 15000+600000
  84566 words of font info for 87 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 45i,12n,67p,903b,339s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,12n,67p,903b,333s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share
-/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc
-10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/font
-s/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb>
-</usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type
-1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></us
-r/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/p
-ublic/lm/lmsso12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/s
-hare/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/marvosym/marvosym.pfb>
-Output written on PranavDeshpandeCv.pdf (4 pages, 238411 bytes).
+c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi
+7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1
+/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmsso12.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/marvosym
+/marvosym.pfb>
+Output written on PranavDeshpandeCv.pdf (4 pages, 235890 bytes).
 PDF statistics:
- 185 PDF objects out of 1000 (max. 8388607)
- 161 compressed objects within 2 object streams
+ 180 PDF objects out of 1000 (max. 8388607)
+ 157 compressed objects within 2 object streams
  27 named destinations out of 1000 (max. 500000)
  24241 words of extra memory for PDF output out of 24883 (max. 10000000)
 
