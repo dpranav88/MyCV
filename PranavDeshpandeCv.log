@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.12)  26 SEP 2018 23:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.12)  2 OCT 2018 23:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -180,33 +180,53 @@ tter compatibility patches
 Package: suffix 2006/07/15 1.5a Variant command support
 )
 \bibindent=\skip54
- (./tweaklist.sty)) (./moderncvstylecasual.sty
-Package: moderncvstylecasual 2012/10/31 v1.2.0 modern curriculum vitae and lett
-er style scheme: casual
- (./moderncvstyleclassic.sty
-Package: moderncvstyleclassic 2012/10/31 v1.2.0 modern curriculum vitae and let
-ter style scheme: classic
-\quotewidth=\skip55
-\hintscolumnwidth=\skip56
-\separatorcolumnwidth=\skip57
-\maincolumnwidth=\skip58
-\doubleitemmaincolumnwidth=\skip59
-\listitemsymbolwidth=\skip60
-LaTeX Font Info:    Try loading font information for U+mvs on input line 78.
+ (./tweaklist.sty)) (./moderncvstylebanking.sty
+Package: moderncvstylebanking 2012/10/31 v1.2.0 modern curriculum vitae and let
+ter style scheme: banking
+ (/usr/share/texmf/tex/latex/tex-gyre/tgpagella.sty
+Package: tgpagella 2009/09/27 v1.2 TeX Gyre Pagella as default roman family
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))))
+\maketitlebox=\box26
+\maketitletempbox=\box27
+\maketitlewidth=\skip55
+\maketitleboxwidth=\skip56
+\quotewidth=\skip57
+\hintscolumnwidth=\skip58
+\separatorcolumnwidth=\skip59
+\maincolumnwidth=\skip60
+\doubleitemcolumnwidth=\skip61
+\listitemsymbolwidth=\skip62
+LaTeX Font Info:    Try loading font information for U+mvs on input line 139.
 
 (/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd)
-\listitemmaincolumnwidth=\skip61
-\listdoubleitemmaincolumnwidth=\skip62
-\makecvtitlenamewidth=\skip63
-\baseletterheight=\skip64
-\cvitemwithcommentmainbox=\box26
+\listitemmaincolumnwidth=\skip63
+\listdoubleitemmaincolumnwidth=\skip64
+\cvitemwithcommentmainbox=\box28
 \cvitemwithcommentmainlength=\skip65
 \cvitemwithcommentcommentlength=\skip66
-)
-\footerbox=\box27
-\footertempbox=\box28
-\footerwidth=\skip67
-\footerboxwidth=\skip68
 )
 (./moderncvcolorblue.sty
 Package: moderncvcolorblue 2012/10/31 v1.2.0 modern curriculum vitae and letter
@@ -252,19 +272,14 @@ Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -289,9 +304,6 @@ Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen115
 \Hy@linkcounter=\count91
@@ -348,7 +360,7 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip69
+\Hy@SectionHShift=\skip67
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 58.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 58.
@@ -372,9 +384,9 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
 LaTeX Font Info:    ... okay on input line 58.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
 LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 58.
- (/usr/share/texmf/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+LaTeX Font Info:    Try loading font information for T1+qpl on input line 58.
+ (/usr/share/texmf/tex/latex/tex-gyre/t1qpl.fd
+File: t1qpl.fd 2009/09/25 v1.2 font definition file for T1/qpl
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -417,9 +429,8 @@ Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ppl.cfg
+File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 LaTeX Font Info:    Try loading font information for T1+lmss on input line 58.
 
@@ -483,20 +494,32 @@ LaTeX Info: Redefining \nameref on input line 58.
 \@outlinefile=\write3
 \openout3 = `PranavDeshpandeCv.out'.
 
-\pagenumberwidth=\skip70
+\pagenumberwidth=\skip68
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 58.
-\makecvtitlepicturebox=\box31
-<pictures/picture.jpg, id=97, 99.7326pt x 132.9768pt>
-File: pictures/picture.jpg Graphic file (type jpg)
-<use pictures/picture.jpg>
-Package pdftex.def Info: pictures/picture.jpg  used on input line 60.
-(pdftex.def)             Requested size: 70.0pt x 93.33675pt.
-\makecvtitlepicturewidth=\skip71
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 60.
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <24.88> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 60.
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <17.28> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 60.
 
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-mvs.cfg
+File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
+)
+LaTeX Font Info:    Try loading font information for OMS+qpl on input line 60.
+LaTeX Font Info:    No file OMSqpl.fd. on input line 60.
+
+
+LaTeX Font Warning: Font shape `OMS/qpl/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 60.
+
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 60.
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
 )
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 60.
 
@@ -521,143 +544,160 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 60.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 60.
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <14.4> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 72.
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10.95> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 74.
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
 
+LaTeX Font Warning: Font shape `T1/lmss/sb/n' undefined
+(Font)              using `T1/lmss/m/n' instead on input line 83.
+
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <12> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 83.
+
+Underfull \hbox (badness 10000) detected at line 83
+\T1/lmss/m/n/8 .
  []
 
 
-LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 90.
-
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-mvs.cfg
-File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
-)
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 94.
-
-(/usr/share/texmf/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/sl' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 94.
+Underfull \hbox (badness 10000) detected at line 88
+\T1/lmss/m/n/8 .
+ []
 
 
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 36.71997pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+LaTeX Font Warning: Font shape `T1/lmss/b/sc' undefined
+(Font)              using `T1/lmss/b/n' instead on input line 90.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./pictures/picture.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
-
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) detected at line 103
+\T1/lmss/m/n/8 .
  []
 
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 117.
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 117.
 
- []
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 
+LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10> not available
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 117.
+
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/10'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `T1/lmss/b/sc' in size <10.95> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 135.
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 135.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 145.
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 36.71997pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 135.
 [2]
-Underfull \hbox (badness 5970) in paragraph at lines 172--172
-[]\T1/lmss/bx/n/10.95 Machine Learn-ing \T1/lmss/m/n/10.95 (+20) by An-drew Ng,
- Stan-ford Uni-ver-sity on Cours-era,
+Underfull \hbox (badness 10000) detected at line 140
+\T1/lmss/m/n/8 .
  []
 
 
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 36.71997pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+Underfull \hbox (badness 10000) detected at line 144
+\T1/lmss/m/n/8 .
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 177
+\T1/lmss/m/n/8 .
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 182
+\T1/lmss/m/n/8 .
+ []
 
 [3]
+Underfull \hbox (badness 10000) detected at line 205
+\T1/lmss/m/n/8 .
+ []
 
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 36.71997pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
 
+Underfull \hbox (badness 10000) detected at line 208
+\T1/lmss/m/n/8 .
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 214
+\T1/lmss/m/n/8 .
+ []
+
+
+Overfull \hbox (38.35126pt too wide) in paragraph at lines 215--215
+[][]\T1/lmss/bx/n/10.95 2017[]\T1/lmss/m/n/10.95 (-20) : Au-thored an ar-ti-cle
+ on Marathi News Por-tal Smart Ma-ha-rash-tra (http://smartmaharashtra.online/a
+ai/). 
+ []
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 237.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 237.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 237.
+
+Underfull \hbox (badness 10000) detected at line 244
+\T1/lmss/m/n/8 .
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 248
+\T1/lmss/m/n/8 .
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 279.
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
-[]\T1/lmss/m/n/10.95 (+20) Authored an ar-ti-cle on Marathi News Por-tal Smart 
-Ma-ha-rash-tra
- []
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 36.71997pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[5]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 248.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 248.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 248.
-
-Underfull \hbox (badness 1783) in paragraph at lines 258--258
-[]\T1/lmss/m/n/10.95 (+20) School of Elec-tri-cal Sci-ences, IIT Bhubaneswar, J
-atni-Kurdha Road, IIT
- []
-
-
-Underfull \hbox (badness 1783) in paragraph at lines 262--262
-[]\T1/lmss/m/n/10.95 (+20) School of Elec-tri-cal Sci-ences, IIT Bhubaneswar, J
-atni-Kurdha Road, IIT
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 286.
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 36.71997pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 286.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 279.
  (./PranavDeshpandeCv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 286.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 286.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 279.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 279.
 Package rerunfilecheck Info: File `PranavDeshpandeCv.out' has not changed.
-(rerunfilecheck)             Checksum: F35F9628D384A20169332479899B51A4;2954.
+(rerunfilecheck)             Checksum: D303CFC5B02C0D8251CA81A920AC7F38;2831.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
  ) 
 Here is how much of TeX's memory you used:
- 12296 strings out of 494880
- 179122 string characters out of 6179601
- 394303 words of memory out of 5000000
- 15358 multiletter control sequences out of 15000+600000
- 85331 words of font info for 93 fonts, out of 8000000 for 9000
+ 12417 strings out of 494880
+ 181839 string characters out of 6179601
+ 385463 words of memory out of 5000000
+ 15479 multiletter control sequences out of 15000+600000
+ 84566 words of font info for 87 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 49i,13n,67p,901b,482s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,12n,67p,903b,339s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share
-/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm
-/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss1
-0.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/font
-s/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pf
-b></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/t
-ype1/public/lm/lmsso12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb>
-</usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on PranavDeshpandeCv.pdf (6 pages, 311080 bytes).
+/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc
+10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/font
+s/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></us
+r/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmsso12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/marvosym/marvosym.pfb>
+Output written on PranavDeshpandeCv.pdf (4 pages, 238411 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
- 177 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
- 29374 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 185 PDF objects out of 1000 (max. 8388607)
+ 161 compressed objects within 2 object streams
+ 27 named destinations out of 1000 (max. 500000)
+ 24241 words of extra memory for PDF output out of 24883 (max. 10000000)
 

@@ -25,8 +25,8 @@
 
 \documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
-\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{red} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvstyle{banking} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 
@@ -42,13 +42,13 @@
 \familyname{Deshpande} % Your last name
 
 % All information in this block is optional, comment out any lines you don't need
-\title{Curriculum Vitae}
+\title{\small[Curriculum Vitae}
 \address{Krishnai-539a, Amboli Road, Ajara, Maharashtra, India 416505}{}
 \mobile{(+91)7276405699 }
 \phone{(+91) 2323 244356}
 %\fax{(000) 111 1113}
 \email{dpranav88@yahoo.co.in}
-%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
 %\extrainfo{additional information}
 \photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
 \quote{"Strength is Life, Weakness is Death!" - Swami Vivekananda}
@@ -63,8 +63,8 @@
 %%	CAREER OBJECTIVE
 %%----------------------------------------------------------------------------------------
 %
-\section{\textbf{Career Objective}}
-\cventry{}{}{}{}{}{An IITian looking for best opportunity in signal processing and computer vision.}
+%\section{\textbf{Career Objective}}
+%\cventry{}{}{}{}{}{An IITian looking for best opportunity in signal processing and computer vision.}
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
@@ -81,7 +81,7 @@
 
 \section{\textbf{Skills}}
 \subsection{\textbf{Domain}}
-\cvitem{Signals}{Biomedical and Audio Signal Processing, Image Processing, Motion Sensor Fusion}
+\cvitem{Signals}{Biomedical and Audio Signal Processing, Image Processing, Sensor Fusion}
 \cvitem{Data Science}{Feature Extraction, \textbf{Machine Learning}, Soft and Evolutionary Computing}
 \cvitem{Filtering}{Digital filter design, Filter Banks, Adaptive Filtering}
 \cvitem{Basics}{Random Signal Modeling, Estimation Theory, Convex Optimization,Linear Algebra}
@@ -91,68 +91,58 @@
 \cvitem{C/C++}{Basic coding with openCV and DSP libraries, openMP \& CUDA (Learning)}
 \cvitem{Hardware}{Basic analog circuits design, STM32F407 Discovery Board, Arduino UNO, Raspberry Pi 3 etc.}
 \cvitem{Others}{basics of Shell Scripting, GNU Make, SQLite, Jenkins, Multisim, VHDL, PSPICE.}
-\subsection{\textbf{Office}}
-\cvitem{O.S.}{Basic user level proficiency with \textbf{Ubuntu} and Microsoft Windows.}
-\cvitem{Office}{Git, \LaTeX, OpenOffice, scrum practices.}
+\cvitem{Office}{Git, \LaTeX, OpenOffice, scrum practices, Basic user level proficiency with Ubuntu and Microsoft Windows.}
 
+\newpage
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
 \section{\textbf{Professional Experience}}
 
-%\subsection{\textbf{Industrial Research}}
-\cventry{2017--Present}{Associate Research Engineer}{\textsc{Brigosha Technologies}}{Bengaluru}{}{Since last \textbf{1 year}, serving as an Algorithm Developer at \textbf{Robert Bosch Engineering and Business Solutions Pvt. Ltd. (RBEI), Coimbatore} which is one of the client location.
-\newline{}\newline{}
-\begin{large}
-\textbf{Projects Handled:}
-\end{large}
-\begin{enumerate}
-\item \textbf{Motion Sensor Fusion Library} 
+\subsection{\textbf{Industrial}}
+\cventry{Sept 2017--Present}{Associate Research Engineer}{Brigosha Technologies Pvt. Ltd.}{Bengaluru}{}{Serving as an Algorithm Developer at client location, i.e. \texttt{Robert Bosch Engineering and Business Solutions Pvt. Ltd. (RBEI), Coimbatore.}
+\center{\textsc{Key Result Area:}}
+Algorithm development for Sensor Fusion Library
 \begin{itemize}
 \item Designed signal pre-processing modules, viz. offset removal and noise filtering for accelerometer, gyroscope and pressure sensors.
 \item Specified signal and noise characteristics for different applications, viz. cars, drones and robots.
 \item Done fine tuning of sensor fusion algorithms such as Kalman filters, Mahony filters.
+\item Done Linear Regression Analysis for temperature compensation of gyroscope sensor offsets. 
 \item Wrote software in MATLAB and Python scripts to develop simulators for Motion Sensor Library. Also implemented C codes for same. 
 \item Provided innovative solution for 9DoF based heading angle correction under slowly varying magnetic field. The solution was approved by department and pending for further approvals to file a patent. 
 \item Developed harsh acceleration and sudden braking detection with only Accelerometer sensor for driving quality assessment. 
-\item Implemented Python and C++ software for Semi-Global Matching (SGM) based object to lens distance estimation.
+% \item Implemented Python and C++ software for Semi-Global Matching (SGM) based object to lens distance estimation.
 \item Wrote scikit-learn based Python scripts for motion activity and event classification.
-\end{itemize}
-\end{enumerate}}
+\end{itemize}}
 
 %------------------------------------------------
 
-\cventry{2016--2017}{Research Scientist}{\textsc{Atreya Innovations Pvt. Ltd.}}{Pune}{}{Had an experience of \textbf{10 months}. Primarily worked on the development of multi-modal signal analysis framework, i.e. Naadi (the Radial Artery Pulse), Voice and Image of the subject, for Naadi  and other Parikshas (Pulse based Diagnosis in Ayurveda). For this, we interacted with a team of Ayurvedic Doctors. The main tasks include data collection (, i.e. Pulse signals, Face and tongue images, voice) at medical camps and analyzing them by feature extraction and machine learning algorithms.
-\newline{}\newline{}
-\begin{large}
-\textbf{Projects Handled:}
-\end{large}
-\begin{enumerate}
-\item \textbf{Multi-modal signal based Health Analysis: Machine Learning Approach}
+\cventry{Nov 2016-- Aug 2017}{Research Scientist}{\textsc{Atreya Innovations Pvt. Ltd.}}{Pune}{}{Had an experience of \textbf{10 months}. Primarily worked on the development of multi-modal signal analysis framework, i.e. Naadi (the Radial Artery Pulse), Voice and Image of the subject, for Naadi  and other Parikshas (Pulse based Diagnosis in Ayurveda). For this, we interacted with a team of Ayurvedic Doctors. The main tasks include data collection (, i.e. Pulse signals, Face and tongue images, voice) at medical camps and analyzing them by feature extraction and machine learning algorithms.
+\center{\textsc{Key Result Area:}}
+Multi-modal signal based Health Analysis: Machine Learning Approach
 \begin{itemize}
-\item Done literature survey on health (\textit{Prakruti}) analysis based on various subject data, viz. radial artery pulse signals (\textit{Naadi}), voice samples, face and tongue images.
+\item Done literature survey on multi-modal signal analysis (, viz. radial artery pulse signals (\textit{Naadi}), voice samples, face and tongue images) for health (\textit{Prakruti}) diagnosis.
 \item Provided technical specifications and rules for data quality for creating database with voice and image samples. 
-\item Implemented MATLAB and Python scripts for signal conditioning and feature extractions modules for voice and pulse signals data.
-\item Wrote Python scripts for different supervised and unsupervised machine learning algorithms with scikit-learn library for data classification.
-\item Set up relation between of Ayurvedic definitions and voice specific parameters.
-\item \textbf{Pulse Rate Variability (PRV) and its correlation with Prakruti: Machine Learning Approach}
-\item Implemented preprocessing and signal conditioning modules for pulse signals. 
-\item Implemented time and frequency domain features extraction modules.
+\item Implemented MATLAB software for signal conditioning and pre-processing modules for voice and pulse signals data.
+\item Implemented MATLAB software for voice activity detection algorithm.
+\item Wrote Python script for extracting voice specific features, viz. MFCC, time and frequency domain features. 
+\item Wrote MATLAB scripts for time domain, frequency domain and geometric feature extraction for pulse rate variability analysis.
+\item Wrote Python scripts for different supervised and unsupervised machine learning algorithms with scikit-learn library for data classification using multi-modal signal features.
+\item Set up regression model to establish relation between of Ayurvedic definitions and voice and pulse specific features.
+\item Developed MLP-based Neural Network model in scikiti-learn for predicting health category using features extracted from Tongue and Face images.
 \item Guided two intern M.Sc. projects related with pulse parameter and rate variability with machine learning approach.
-\item \textbf{Tongue and Face features and their correlation with Prakruti: Machine Learning Approach}
-\end{itemize}
-\end{enumerate}}
+\end{itemize}}
 
 
 %------------------------------------------------
-
+\newpage
 \subsection{\textbf{Academic Research}}
 
 \cventry{2013--2016}{Research Scholar}{\textsc{Indian Institute of Technology}}{Bhubaneswar}{}{Had around \textbf{03 years} of research experience while working as a M. Tech. scholar and Ph.D. scholar at IIT Bhubaneswar. Published one conference and two journals. Explored areas like stochastic signal modeling, speech and biomedical signal processing and analysis, Image processing.}
 
 \subsection{\textbf{Teaching}}
-\cventry{2010--2016}{Teaching Assistant and Lecturer}{}{}{}{Had around \textbf{05 years} teaching experience which helped me a lot to enhance my basic understanding and concepts of subjects like signal processing, microprocessors and analog circuit design.}
+\cventry{2010--2016}{Teaching Assistant and Lecturer}{}{}{}{Had around \textbf{05 years} teaching experience and taught subjects like signal processing, microprocessors and analog circuit design.}
 
 %----------------------------------------------------------------------------------------
 %	AWARDS SECTION
@@ -169,15 +159,15 @@
 
 \section{\textbf{Extra Certifications}}
 
-\cvitem{2018}{\textbf{Machine Learning} by Andrew Ng, Stanford University on Coursera, (https://www.coursera.org/account/accomplishments/verify/JBRXBMHC86RY)}
+\cvitem{Machine Learning}{by Andrew Ng, Stanford University on Coursera,\newline{} (https://www.coursera.org/account/accomplishments/verify/JBRXBMHC86RY)}
 
-\cvitem{2018}{\textbf{Learn Python: The Complete Python Automation Course!} on Udemy, (https://www.udemy.com/certificate/UC-25GBXWUQ/)}
+%\cvitem{Learn Python: The Complete Python Automation Course!}{on Udemy,\newline{} (https://www.udemy.com/certificate/UC-25GBXWUQ/)}
 
 %\cvitem{2018}{\textbf{Fundamentals of Parallelism on Intel Architecture} by Intel on Coursera, (Complete by July 2018)}
 
-\cvitem{2018}{\textbf{Introduction to Parallel Programming using GPGPU and CUDA} on Udemy, (https://www.udemy.com/certificate/UC-76HISUU8/)}
+\cvitem{Introduction to Parallel Programming using GPGPU and CUDA}{on Udemy,\newline{} (https://www.udemy.com/certificate/UC-76HISUU8/)}
 
-\cvitem{2018}{\textbf{Introduction to Embedded Systems Software and Development Environments} university of Coursera boulder on Coursera, (September 2018)}
+%\cvitem{2018}{\textbf{Introduction to Embedded Systems Software and Development Environments} university of Coursera boulder on Coursera, (September 2018)}
 
 %----------------------------------------------------------------------------------------
 %	Publications SECTION
@@ -186,11 +176,11 @@
 \section{\textbf{Publications}}
 \subsection{\textbf{International Journals}}
 
-\cvitem{2017}{\textbf{Pranav S. Deshpande} and M. S. Manikandan, ``Effective Glottal Instant Detection and Electroglottographic Parameter Extraction for Automated Voice Pathology Assessment", \textit{IEEE J. Biomed. Health Inform.,} vol.PP, no.99, pp.1-1, Jan 2017.}
-\cvitem{2018}{\textbf{Pranav S. Deshpande} and M. S. Manikandan, ``Glottal Opening Instants Detection from Speech Signals Using Variational Mode Decomposition", \textit{IEEE Trans. Instrum. Meas.,} (To be submitted), 2017.}
-\cvitem{2015}{M. S. Manikandan, B. Ramkumar, \textbf{Pranav S. Deshpande}, T. Choudhary, ``Robust Detection of Premature Ventricular Contractions Using Sparse Signal Decomposition and Temporal Features", \textit{IET Healthcare Technology Letters,} vol.2, no.6, pp.141-148, Nov 2015.}
+\cvitem{1}{\textbf{Pranav S. Deshpande} and M. S. Manikandan, ``Effective Glottal Instant Detection and Electroglottographic Parameter Extraction for Automated Voice Pathology Assessment", \textit{IEEE J. Biomed. Health Inform.,} vol.PP, no.99, pp.1-1, Jan 2017.}
+\cvitem{2}{\textbf{Pranav S. Deshpande} and M. S. Manikandan, ``Glottal Opening Instants Detection from Speech Signals Using Variational Mode Decomposition", \textit{IEEE Trans. Instrum. Meas.,} (To be submitted), 2018.}
+\cvitem{3}{M. S. Manikandan, B. Ramkumar, \textbf{Pranav S. Deshpande}, T. Choudhary, ``Robust Detection of Premature Ventricular Contractions Using Sparse Signal Decomposition and Temporal Features", \textit{IET Healthcare Technology Letters,} vol.2, no.6, pp.141-148, Nov 2015.}
 \subsection{\textbf{International Conference}}
-\cvitem{2015}{\textbf{Pranav S. Deshpande} and M. S. Manikandan, ``Improving Accuracy of Glottal Closure Instant Detection Methods in Nonstationary Noise", in \emph{Proc. IEEE Int. Conf. on Signal Processing and Integrated Networks (SPIN-2015)}, Feb. 2015}
+\cvitem{1}{\textbf{Pranav S. Deshpande} and M. S. Manikandan, ``Improving Accuracy of Glottal Closure Instant Detection Methods in Nonstationary Noise", in \emph{Proc. IEEE Int. Conf. on Signal Processing and Integrated Networks (SPIN-2015)}, Feb. 2015}
 
 
 \section{\textbf{Masters Thesis}}
@@ -216,8 +206,8 @@
 \cvitem{2013}{Secured \textbf{All India Rank 800} with score 649 in GATE 2013.}
 
 \subsection{\textbf{Leadership and Management}}
-\cvitem{2014-2015}{Worked as a \textbf{Mess Wing Counselor} at IIT Bubaneswar Boys' Hostel; Madanpur.}
 \cvitem{2014-2015}{Worked as M.Tech. Electrical \textbf{Student's Representative at Career Development Cell} of IIT Bhubaneswar.}
+\cvitem{2014-2015}{Worked as a \textbf{Mess Wing Counselor} at IIT Bubaneswar Boys' Hostel; Madanpur.}
 \cvitem{2008-2010}{Worked as \textbf{Field Officer, Assistant Coordinator and Coordinator} for the Publicity Comity of national level competition \textit{Brainwaves}.}
 \cvitem{2008}{Worked as \textbf{Field Officer} for Orchestra Comity of cultural gathering \textit{Utopia}.}
 
@@ -229,13 +219,12 @@
 %----------------------------------------------------------------------------------------
 %	INTERESTS SECTION
 %----------------------------------------------------------------------------------------
-\newpage
 
 \section{\textbf{Interests}}
 
 \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
 
-\cvlistdoubleitem{Daily 52 sets of Surya Namaskar}{Playing Guitar and Harmonium}
+\cvlistdoubleitem{Surya Namaskar}{Playing Guitar and Harmonium}
 \cvlistdoubleitem{Singing and composing songs, Poetry Writing}{Cooking, Swimming}
 %----------------------------------------------------------------------------------------
 %	LANGUAGES SECTION
@@ -252,14 +241,18 @@
 %----------------------------------------------------------------------------------------
 
 \section{\textbf{References}}
-\subsection{\textbf{1. Dr. M. Sabarimalai Manikandan}}
+\subsection{\textbf{1. Pradeep Joseph Rayan}}
+\cvitem{Designation}{Senior Software Developer,Robert Bosch Engineering and Business Solutions Pvt. Ltd., Coimbatore}
+\cvitem{Email}{pradeep@in.bosch.com }
+\cvitem{Address}{EAC2, RBEI, CHIL-SEZ, Keeranatham Village, Coimbatore, Tamil Nadu 641035}
+\subsection{\textbf{2. Dr. M. Sabarimalai Manikandan}}
 \cvitem{Designation}{Assistant Professor,  School of Electrical Sciences, IIT Bhubaneswar}
 \cvitem{Email}{msm@iitbbs.ac.in}
 \cvitem{Address}{School of Electrical Sciences, IIT Bhubaneswar, Jatni-Kurdha Road, IIT Bhubaneswar, Odisha, India -752050}
-\subsection{\textbf{2. Dr. Barathram. Ramkumar}}
-\cvitem{Designation}{Assistant Professor,  School of Electrical Sciences, IIT Bhubaneswar}
-\cvitem{Email}{barathram@iitbbs.ac.in}
-\cvitem{Address}{School of Electrical Sciences, IIT Bhubaneswar, Jatni-Kurdha Road, IIT Bhubaneswar, Odisha, India -752050}
+%\subsection{\textbf{2. Dr. Barathram. Ramkumar}}
+%\cvitem{Designation}{Assistant Professor,  School of Electrical Sciences, IIT Bhubaneswar}
+%\cvitem{Email}{barathram@iitbbs.ac.in}
+%\cvitem{Address}{School of Electrical Sciences, IIT Bhubaneswar, Jatni-Kurdha Road, IIT Bhubaneswar, Odisha, India -752050}
 
 %----------------------------------------------------------------------------------------
 %	COVER LETTER
