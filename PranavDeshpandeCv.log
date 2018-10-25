@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.12)  3 OCT 2018 00:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.25)  26 OCT 2018 00:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -597,9 +597,9 @@ LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10> not available
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `T1/lmss/b/sc' in size <10.95> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 136.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 118.
+LaTeX Font Info:    Font shape `T1/lmss/b/sc' in size <10.95> not available
 (Font)              Font shape `T1/lmss/bx/n' tried instead on input line 136.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 136.
@@ -676,8 +676,8 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  12417 strings out of 494880
- 181839 string characters out of 6179601
- 385466 words of memory out of 5000000
+ 181839 string characters out of 6179600
+ 386466 words of memory out of 5000000
  15479 multiletter control sequences out of 15000+600000
  84566 words of font info for 87 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
@@ -693,7 +693,7 @@ c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share
 sr/share/texmf/fonts/type1/public/lm/lmsso12.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/marvosym
 /marvosym.pfb>
-Output written on PranavDeshpandeCv.pdf (4 pages, 235890 bytes).
+Output written on PranavDeshpandeCv.pdf (4 pages, 236189 bytes).
 PDF statistics:
  180 PDF objects out of 1000 (max. 8388607)
  157 compressed objects within 2 object streams
