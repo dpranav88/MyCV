@@ -133,7 +133,7 @@ Multi-modal signal based Health Analysis: Machine Learning Approach
 \item Wrote MATLAB scripts for time domain, frequency domain and geometric feature extraction for pulse rate variability analysis.
 \item Wrote Python scripts for different supervised and unsupervised machine learning algorithms with scikit-learn library for data classification using multi-modal signal features.
 \item Set up regression model to establish relation between of Ayurvedic definitions and voice and pulse specific features.
-\item Developed MLP-based Neural Network model in scikiti-learn for predicting health category using features extracted from and Face images.
+%\item Developed MLP-based Neural Network model in scikiti-learn for predicting health category using features extracted from and Face images.
 \item Guided two intern M.Sc. projects related with pulse parameter and rate variability with machine learning approach.
 \end{itemize}}
 
