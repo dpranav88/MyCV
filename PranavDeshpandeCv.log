@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.25)  19 AUG 2019 22:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.25)  9 OCT 2019 21:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -576,7 +576,7 @@ Underfull \hbox (badness 10000) detected at line 103
 \T1/lmss/m/n/8 .
  []
 
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 122.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 123.
 
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -585,88 +585,94 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 122.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 123.
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 122.
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 123.
 
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 122.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 123.
 LaTeX Font Info:    Font shape `T1/lmss/b/sc' in size <10.95> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 138.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 139.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 138.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 139.
 
-Underfull \hbox (badness 10000) detected at line 141
+Underfull \hbox (badness 10000) detected at line 142
 \T1/lmss/m/n/8 .
  []
 
 [2]
-Underfull \hbox (badness 10000) detected at line 144
+Underfull \hbox (badness 10000) detected at line 145
 \T1/lmss/m/n/8 .
  []
 
 
-Underfull \hbox (badness 10000) detected at line 176
+Overfull \hbox (0.11176pt too wide) in paragraph at lines 162--162
+\T1/lmss/m/n/10.95 (-15) (https://www.coursera.org/account/accomplishments/spec
+ialization/certificate/DRE9N5W8K3GV) 
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 179
 \T1/lmss/m/n/8 .
  []
 
 
-Underfull \hbox (badness 10000) detected at line 181
+Underfull \hbox (badness 10000) detected at line 184
 \T1/lmss/m/n/8 .
  []
 
 [3]
-Underfull \hbox (badness 10000) detected at line 204
-\T1/lmss/m/n/8 .
- []
-
-
 Underfull \hbox (badness 10000) detected at line 207
 \T1/lmss/m/n/8 .
  []
 
 
-Underfull \hbox (badness 10000) detected at line 213
+Underfull \hbox (badness 10000) detected at line 210
 \T1/lmss/m/n/8 .
  []
 
 
-Overfull \hbox (38.35126pt too wide) in paragraph at lines 214--214
+Underfull \hbox (badness 10000) detected at line 216
+\T1/lmss/m/n/8 .
+ []
+
+
+Overfull \hbox (38.35126pt too wide) in paragraph at lines 217--217
 [][]\T1/lmss/bx/n/10.95 2017[]\T1/lmss/m/n/10.95 (-20) : Au-thored an ar-ti-cle
  on Marathi News Por-tal Smart Ma-ha-rash-tra (http://smartmaharashtra.online/a
 ai/). 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 236.
+(Font)              <10> on input line 238.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 236.
+(Font)              <7> on input line 238.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 236.
+(Font)              <5> on input line 238.
 
-Underfull \hbox (badness 10000) detected at line 243
+Underfull \hbox (badness 10000) detected at line 245
 \T1/lmss/m/n/8 .
  []
 
 
-Underfull \hbox (badness 10000) detected at line 247
+Underfull \hbox (badness 10000) detected at line 249
 \T1/lmss/m/n/8 .
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 278.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 280.
 [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 278.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 280.
  (./PranavDeshpandeCv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 278.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 278.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 280.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 280.
 Package rerunfilecheck Info: File `PranavDeshpandeCv.out' has not changed.
 (rerunfilecheck)             Checksum: D303CFC5B02C0D8251CA81A920AC7F38;2831.
 
@@ -675,11 +681,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 12415 strings out of 494880
- 181815 string characters out of 6179600
+ 12417 strings out of 494880
+ 181839 string characters out of 6179600
  387466 words of memory out of 5000000
  15479 multiletter control sequences out of 15000+600000
- 84465 words of font info for 86 fonts, out of 8000000 for 9000
+ 84566 words of font info for 87 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  45i,12n,67p,903b,333s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
@@ -693,7 +699,7 @@ c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share
 sr/share/texmf/fonts/type1/public/lm/lmsso12.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/marvosym
 /marvosym.pfb>
-Output written on PranavDeshpandeCv.pdf (4 pages, 235668 bytes).
+Output written on PranavDeshpandeCv.pdf (4 pages, 235715 bytes).
 PDF statistics:
  180 PDF objects out of 1000 (max. 8388607)
  157 compressed objects within 2 object streams
