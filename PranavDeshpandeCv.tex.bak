@@ -88,8 +88,8 @@
 %\cvitem{Basics}{Random Signal Modeling, Estimation Theory, Convex Optimization,Linear Algebra}
 \subsection{\textbf{Tools}}
 \cvitem{MATLAB}{Code conversion (Coder), Simulation and Scripting with Toolboxes: Signal Processing, DSP System, Statistics and Machine Learning, etc.}
-\cvitem{\textsc{Python}}{Basic of NumPy, SciPy, pandas, matplotlib, OpenCV, scikit-learn, Keras, TensorFlow}
-\cvitem{C/C++}{Basic coding with openCV and DSP libraries}
+\cvitem{\textsc{Python}}{Basic of NumPy, SciPy, pandas, matplotlib, OpenCV, scikit-learn, TensorFlow (Keras)}
+\cvitem{C/C++}{Signal Processing Algorithm Development, Sensor Library Integration, Basic openCV, CMSIS DSP etc.}
 \cvitem{Hardware}{Basics of STM32F407 Discovery Board, Arduino UNO, Raspberry Pi 3 etc.}
 \cvitem{Others}{Basics of Shell Scripting, GNU Make, SQLite, Jenkins, Git, \LaTeX, scrum practices, Ubuntu and Microsoft Windows.}
 
@@ -101,24 +101,59 @@
 \section{\textbf{Professional Experience}}
 
 \subsection{\textbf{Industrial}}
-\cventry{Sept 2017--Present}{Associate Research Engineer}{Brigosha Technologies Pvt. Ltd.}{Bengaluru}{}{Serving as an Algorithm Developer at client location, i.e. \texttt{Robert Bosch Engineering and Business Solutions Pvt. Ltd. (RBEI), Coimbatore.}
+\cventry{Apr 2022--Present}{Member of Techincal Staff Software System Design Engineer}{AMD India Pvt. Ltd.}{Bengaluru}{}{Serving as an Algorithm Developer.
+\center{\textsc{Key Result Area:}}
+Algorithm development for AMD Sensor Fusion Hub Library
+\begin{itemize}
+\item Provided Algorithm solution for  
+\begin{itemize}
+\item Hand Gesture Detection using ToF Array Sensors for Laptop usecase.
+\item Laptop state detection, viz. on table, on lap, in bag etc with only accelerometer sensor. 
+\item Laptop Mode detection, viz. book, tent, tablet etc. using two accelerometers. 
+\item Laptop Screen Orientation Detection using single accelerometer. 
+\end{itemize}
+\item \textbf{Designed signal pre-processing modules}, viz. offset removal and noise filtering for accelerometer, gyroscope and distance  sensors.
+\item Designed and executed POC for Laptop device state detection, viz. on table, on lap, in bag etc..
+\item Wrote software in MATLAB and Python scripts to develop simulators for Motion Sensor Library. Also implemented C codes for same.
+\item Trained Machine Learning Models for hand gesture detection using ToF Sensor for laptop mouse such as scroll, click etc.
+\item Integrated third party sensor libraries on AMD platfrom.
+\item \textbf{Innovation}
+\begin{itemize}
+\item Presnted a conference paper at AMD's Internal GTAC 2023 Conference.
+\item Presnted a poster at at AMD's Internal AATC 2023 Conference.
+\item Submitted 3 innovation reports which are under scrutiny of AMD's patent team.
+\item Submitted papers and research work at AMD's iExpo, AATC 2023, 2024 platforms.
+\end{itemize}
+\item Lead and mentored a team of two Juniors.
+\item Improved software devlopment cycle process by incorporating automation (Python) such as BIOS creation, SW release etc. This reduced time consuming manual process and improved entire team's efficiency.
+\end{itemize}}
+
+\cventry{Sept 2021--Mar 2022}{Software Engineer}{Tektronix India Pvt. Ltd.}{Bengaluru}{}{Served as a Signal Processing Algorithm Developer for PCIe team.}
+
+
+\cventry{Sept 2017--Sept 2021}{Associate Research Engineer}{Brigosha Technologies Pvt. Ltd.}{Bengaluru}{}{Serving as an Algorithm Developer at client location, i.e. \texttt{Robert Bosch Engineering and Business Solutions Pvt. Ltd. (RBEI), Coimbatore.}
 \center{\textsc{Key Result Area:}}
 Algorithm development for Sensor Fusion Library
 \begin{itemize}
 \item Provided innovative algorithm solution for  
 \begin{itemize}
-\item 9DoF based heading angle error reduction under slowly varying magnetic field. The solution is approved by RBEI IP department to file a \textbf{patent}.
+\item 9DoF based heading angle error reduction under slowly varying magnetic field. (Approved by RBEI IP department to file a \textbf{patent}.)
 \item Temperature compensated gyroscope bias estimation.(Submitted to RBEI IP Dept.)  
-\item FlipCam and FastFlash gestures detection with only accelerometer sensor.(Submitted to RBEI IP Dept.)   
+\item FlipCam and FastFlash gestures detection with only accelerometer sensor. (Approved by RBEI IP department to file a \textbf{patent}.) 
+\item Laptop Gesture and state detection with only accelerometer sensor. (Approved by RBEI IP department to file a \textbf{patent}.)   
 \end{itemize}
+\item \textbf{Developed automated MATLAB framework to convert trained keras CNN model into c code convertible MATLAB code.}
 \item \textbf{Designed signal pre-processing modules}, viz. offset removal and noise filtering for accelerometer, gyroscope and pressure sensors. Specified signal and noise characteristics for different applications, viz. cars, drones and robots.
 \item Done fine tuning of \textbf{sensor fusion algorithms} such as Kalman filters, Mahony filters.
 \item Wrote Python script for fitting a curve to gyroscope bias vs. temperature characteristics using \textbf{Linear Regression}.
 \item \textbf{Designed Kalman Filter state model} for online estimation of temperature coefficient of gyroscope sensor offsets (TCO).  
 \item Developed harsh acceleration and sudden braking detection algorithm for driving quality assessment. 
+\item Designed and executed POC for Laptop device state detection, viz. on table, on lap, in bag etc..
 % \item Implemented Python and C++ software for Semi-Global Matching (SGM) based object to lens distance estimation.
 \item Wrote scikit-learn based Python scripts for motion activity and event classification.
 \item Wrote software in MATLAB and Python scripts to develop simulators for Motion Sensor Library. Also implemented C codes for same.
+\item Trained CNN for hand  gesture detection for video conferencing application
+\item Developed PoC for facial landmark based speech detection from video stream.
 \end{itemize}}
 %------------------------------------------------
 \cventry{Nov 2016-- Aug 2017}{Research Scientist}{\textsc{Atreya Innovations Pvt. Ltd.}}{Pune}{}{Had an experience of \textbf{10 months}. Primarily worked on the development of multi-modal signal analysis framework, i.e. Naadi (the Radial Artery Pulse), Voice and Image of the subject, for Naadi  and other Parikshas (Pulse based Diagnosis in Ayurveda). For this, we interacted with a team of Ayurvedic Doctors. The main tasks include data collection (, i.e. Pulse signals, Face and tongue images, voice) at medical camps and analyzing them by feature extraction and machine learning algorithms.
@@ -174,21 +209,37 @@ Multi-modal signal based Health Analysis: Machine Learning Approach
 %	Publications SECTION
 %----------------------------------------------------------------------------------------
 
-\section{\textbf{Publications}}
+\section{\textbf{Patets and Publications}}
+\subsection{\textbf{Patents}}
+
+\cvitem{1}{\textbf{INA 202241037881} , ``A POWER CONTROL APPARATUS AND A POWER CONTROL METHOD FOR A MOBILE DEVICE ", Jan 5, 2024.}
+\cvitem{2}{\textbf{INA 202141027914} , ``A LAPTOP POSITION DETECTION SYSTEM ", Dec 30, 2022}
+\cvitem{3}{\textbf{INA 201941053086 } , ``A SYSTEM AND METHOD FOR DETECTING GESTURES USING ACCELEROMETER", Jun 25, 2021 }
+\cvitem{4}{\textbf{INA 201841040798} , ``A METHOD OF FILTERING STATIC MAGNETIC FIELD DISTORTION DURING CALCULATION OF HEADING ANGLE", May 1, 2020.}
+
 \subsection{\textbf{International Journals}}
 
 \cvitem{1}{\textbf{Pranav S. Deshpande} and M. S. Manikandan, ``Effective Glottal Instant Detection and Electroglottographic Parameter Extraction for Automated Voice Pathology Assessment", \textit{IEEE J. Biomed. Health Inform.,} vol.PP, no.99, pp.1-1, Jan 2017.}
 \cvitem{2}{\textbf{Pranav S. Deshpande} and M. S. Manikandan, ``Glottal Opening Instants Detection from Speech Signals Using Variational Mode Decomposition", \textit{IEEE Trans. Instrum. Meas.,} (To be submitted), 2018.}
 \cvitem{3}{M. S. Manikandan, B. Ramkumar, \textbf{Pranav S. Deshpande}, T. Choudhary, ``Robust Detection of Premature Ventricular Contractions Using Sparse Signal Decomposition and Temporal Features", \textit{IET Healthcare Technology Letters,} vol.2, no.6, pp.141-148, Nov 2015.}
+
 \subsection{\textbf{International Conference}}
-\cvitem{1}{\textbf{Pranav S. Deshpande} and M. S. Manikandan, ``Improving Accuracy of Glottal Closure Instant Detection Methods in Nonstationary Noise", in \emph{Proc. IEEE Int. Conf. on Signal Processing and Integrated Networks (SPIN-2015)}, Feb. 2015}
+\cvitem{1}{\textbf{Pranav S. Deshpande} and Kashif M.S., ``Enabling Touchless Control using Gesture Detection derived from Time of Flight (ToF) non-camera Sensor using INH algorithm", in \emph{4th Annual AMD Global Technical Authors Conference (GTAC '23) }, Dec. 2023}
+\cvitem{2}{\textbf{Pranav S. Deshpande} and M. S. Manikandan, ``Improving Accuracy of Glottal Closure Instant Detection Methods in Nonstationary Noise", in \emph{Proc. IEEE Int. Conf. on Signal Processing and Integrated Networks (SPIN-2015)}, Feb. 2015}
 
 
-\section{\textbf{Masters Thesis}}
+\section{\textbf{Professional Awards }}
+\cvitem{1} {AMD Innovation Expo 2024 Honarary Award}
+\cvitem{2} {AMD Director's spotlight award for Q4 2024}
+\cvitem{3}{AMD spotlight award for Q4 2023}
+\cvitem{4}{Brigosha Best Performer of the year Award 2019 }
 
-\cvitem{Title}{\emph{Glottal Instant Detection from Speech \&  EGG Signals}}
-\cvitem{Supervisor}{Dr. M. Sabarimalai Manikandan (Asst. Prof.), SES, IIT Bhubaneswar}
-\cvitem{Description}{In this thesis, we attempt to develop an unified framework using variational mode decomposition (VMD) and autocorrelation feature based post-processing techniques for automatically detecting glottal closure instants (GCIs) and glottal opening instants (GOIs) from speech and EGG signals including both voiced speech and non-speech portions. The major objective of this thesis is to develop an unified VMD based filtering framework for extracting the glottal waveform feature signal meanwhile suppressing the background noises. In this work, we investigated a set of autocorrelation features for designing a post-processing technique to improve overall accuracy by reducing the number of false positives during non-speech portions without significantly reducing identification rate during voiced segment of EGG and speech signals.}
+
+%\section{\textbf{Masters Thesis}}
+
+%\cvitem{Title}{\emph{Glottal Instant Detection from Speech \&  EGG Signals}}
+%\cvitem{Supervisor}{Dr. M. Sabarimalai Manikandan (Asst. Prof.), SES, IIT Bhubaneswar}
+%\cvitem{Description}{In this thesis, we attempt to develop an unified framework using variational mode decomposition (VMD) and autocorrelation feature based post-processing techniques for automatically detecting glottal closure instants (GCIs) and glottal opening instants (GOIs) from speech and EGG signals including both voiced speech and non-speech portions. The major objective of this thesis is to develop an unified VMD based filtering framework for extracting the glottal waveform feature signal meanwhile suppressing the background noises. In this work, we investigated a set of autocorrelation features for designing a post-processing technique to improve overall accuracy by reducing the number of false positives during non-speech portions without significantly reducing identification rate during voiced segment of EGG and speech signals.}
 
 %----------------------------------------------------------------------------------------
 %	COMMUNICATION SKILLS SECTION
@@ -225,7 +276,7 @@ Multi-modal signal based Health Analysis: Machine Learning Approach
 
 \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
 
-\cvlistdoubleitem{Surya Namaskar}{Playing Guitar and Harmonium}
+\cvlistdoubleitem{Certified Yoga Teacher}{Playing Guitar and Harmonium}
 \cvlistdoubleitem{Singing and composing songs, Poetry Writing}{Cooking, Swimming}
 %----------------------------------------------------------------------------------------
 %	LANGUAGES SECTION
@@ -241,11 +292,7 @@ Multi-modal signal based Health Analysis: Machine Learning Approach
 %----------------------------------------------------------------------------------------
 
 \section{\textbf{References}}
-\subsection{\textbf{1. Pradeep Joseph Rayan}}
-\cvitem{Designation}{Senior Software Developer,Robert Bosch Engineering and Business Solutions Pvt. Ltd., Coimbatore}
-\cvitem{Email}{josephrayan.pradeep@in.bosch.com }
-\cvitem{Address}{EAC2, RBEI, CHIL-SEZ, Keeranatham Village, Coimbatore, Tamil Nadu 641035}
-\subsection{\textbf{2. Dr. M. Sabarimalai Manikandan}}
+\subsection{\textbf{1. Dr. M. Sabarimalai Manikandan}}
 \cvitem{Designation}{Assistant Professor,  School of Electrical Sciences, IIT Bhubaneswar}
 \cvitem{Email}{msm@iitbbs.ac.in}
 \cvitem{Address}{School of Electrical Sciences, IIT Bhubaneswar, Jatni-Kurdha Road, IIT Bhubaneswar, Odisha, India -752050}
